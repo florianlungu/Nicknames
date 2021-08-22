@@ -1,19 +1,15 @@
 {
-  "name": "@slack/slack-bolt-sdk-example",
-  "version": "1.1.0",
-  "private": true,
-  "description": "A basic example of using the Slack Bolt ?? SDK",
-  "main": "index.js",
+  "name": "Nicknames",
+  "version": "1.4.0",
+  "description": "Slash app hosted on Glitch that allows users to change each others nicknames like FB messenger",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "ngrok": "ngrok http 3000",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "engines": {
-    "node": "14.x"
-  },
-  "author": "Slack Technologies, Inc.",
   "license": "MIT",
   "dependencies": {
-    "@slack/bolt": "^3.3.0"
+    "@slack/bolt": "^3.5.0"
   }
 }
